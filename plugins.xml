@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+  <pyqgis_plugin name="Q-Press" version="2.0.2">
+    <description>Professional cartographic PDF generator for QGIS 4/Qt6. Use Shift+Drag to select an area and export a comprehensive map with automatic or manual scale, custom paper size, filtered attributes, charts, and topographic profiles.</description>
+    <about>Q-Press allows you to select an area directly from the QGIS canvas using Shift+Drag and instantly generate a professional cartographic PDF. The output includes a technical title block, automatic or manual scale, custom paper size, coordinate grids, legend, overview map, filtered attribute tables, statistical dashboards, and a single-line topographic profile from OpenTopoData or a project DTM/DEM raster.</about>
+    <version>2.0.2</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>q_press.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/q_press.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/q_press</repository>
+    <tracker>https://github.com/sag1687/q_press/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/q_press.svg</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Quick CRS Fixer" version="2.0.3">
+    <description>Strumento avanzato per il rilevamento e la correzione automatica dei problemi di CRS / Advanced tool for automatic detection and correction of CRS issues</description>
+    <about>[IT] Quick CRS Fixer è un plugin essenziale per individuare e risolvere problematiche legate ai Sistemi di Riferimento delle Coordinate (CRS). Funzionalità principali: rilevamento automatico delle incongruenze geometriche; suggerimento intelligente dell'EPSG corretto tramite toponimi ed estensione spaziale; integrazione con OpenStreetMap (Nominatim) e Wikipedia; scheda Help; selettore lingua italiano/inglese. Compatibile con QGIS 3.x e QGIS 4.0+/Qt6. Sviluppato per ricerca e utilità pubblica. --- [EN] Quick CRS Fixer is an essential plugin for identifying and resolving Coordinate Reference System (CRS) issues. Key features: automatic detection of geometric inconsistencies; smart EPSG suggestions through place names and spatial extents; OpenStreetMap (Nominatim) and Wikipedia integration; Help tab; Italian/English language selector. Compatible with QGIS 3.x and QGIS 4.0+/Qt6. Developed for research and public utility.</about>
+    <version>2.0.3</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>crs.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/crs.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/CRS_FIXER</repository>
+    <tracker>https://github.com/sag1687/CRS_FIXER/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/crs.png</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="GeoBridge" version="1.2.2">
+    <description>IT: Client QGIS non ufficiale per usare le API servizio API IGM (IGM): conversione di coordinate e layer vettoriali. Coadiuvato da AI. / EN: Unofficial QGIS client for API IGMs (IGM): coordinates and vector layers conversion. Assisted by AI.</description>
+    <about>IT: GeoBridge e' un client QGIS non ufficiale. Il codice del plugin e' distribuito sotto licenza GPL-2.0-or-later. IMPORTANTE: L'autore non si appropria ne' rivendica alcun diritto sui prodotti IGM. Il servizio API IGM, l'infrastruttura, il marchio e le elaborazioni sono e restano di esclusiva proprieta' dell'Istituto Geografico Militare. Sviluppo coadiuvato da AI. EN: GeoBridge is an unofficial QGIS client. The plugin code is licensed under GPL-2.0-or-later. IMPORTANT: The author does not appropriate or claim any rights over IGM products. The servizio API IGM service, infrastructure, brand, and processing results are and remain the exclusive property of the Italian Military Geographic Institute. Development assisted by AI.</about>
+    <version>1.2.2</version>
+    <qgis_minimum_version>3.22</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>geobridge.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/geobridge.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/geobridge</repository>
+    <tracker>https://github.com/sag1687/geobridge/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/geobridge.svg</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="QGIS Ledger" version="4.0.3">
+    <description>Enterprise-grade Git-like version control for QGIS. Features semantic geometric diffing, deterministic rollback, and multi-cloud synchronization (Nextcloud, WebDAV, Dropbox, OneDrive, Google Drive).</description>
+    <about>
+============================================================
+ITALIANO
+============================================================
+QGIS Ledger — Versioning di Livello Enterprise per QGIS
+Sistema di tracciamento storico e sincronizzazione cloud progettato per l'integrità dei dati spaziali, senza dipendenze esterne. Ottimizzato per QGIS 3.x e QGIS 4 (Qt6).
+
+FUNZIONALITÀ PRINCIPALI:
+- Architettura a Snapshot: Commit atomici di layer e progetti in SQLite locale.
+- Diff Semantico-Visuale: Analisi geometrica delle differenze tra versioni.
+- Rollback Deterministico: Ripristino istantaneo di dati e stili.
+- Sincronizzazione Cloud: Supporto nativo per Nextcloud, WebDAV, Dropbox, OneDrive e GDrive.
+- Merge Wizard: Gestione conflitti in split-screen.
+
+============================================================
+ENGLISH
+============================================================
+QGIS Ledger — Enterprise-Grade Version Control for QGIS
+Comprehensive historical tracking and cloud synchronization engine engineered for geospatial data integrity, operating entirely dependency-free across QGIS 3.x and QGIS 4 (Qt6).
+
+CORE FEATURES:
+- Snapshot Architecture: Atomic commits of layers and projects in local SQLite.
+- Semantic Visual Diff: Geometric analysis of differences between versions.
+- Deterministic Rollback: Instant restoration of data and styling.
+- Cloud Synchronization: Native support for Nextcloud, WebDAV, Dropbox, OneDrive, and GDrive.
+- Merge Wizard: Split-screen conflict resolution.</about>
+    <version>4.0.3</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>qgis_ledger.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/qgis_ledger.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/qgis_ledger</repository>
+    <tracker>https://github.com/sag1687/qgis_ledger/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/qgis_ledger.jpg</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="GeoCSV Mapper" version="2.2.1">
+    <description>IT: Importa file CSV con coordinate in vari formati. Riconoscimento DMS, anteprima mappa e salvataggio GeoPackage. | EN: Import CSV files with coordinates in various formats. DMS recognition, map preview, and GeoPackage saving.</description>
+    <about>IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti tramite file CSV in QGIS.\nOffre un potente parser per il riconoscimento automatico sia delle coordinate decimali standard sia dei formati sessagesimali complessi (DMS). Implementa un'anteprima rapida su cartografia OpenStreetMap, verifica in tempo reale la codifica testuale e supporta l'esportazione automatizzata verso il moderno formato standard GeoPackage.\n\nEN: This plugin is an advanced tool for the bulk import of points via CSV files in QGIS.\nIt offers a powerful parser for automatic recognition of both standard decimal coordinates and complex sexagesimal formats (DMS). It features a quick preview on OpenStreetMap cartography, real-time text encoding verification, and automated export support to the modern GeoPackage format.</about>
+    <version>2.2.1</version>
+    <qgis_minimum_version>3.0</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>csv_importer_plugin.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/csv_importer_plugin.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande e Geometra Luca Casti</author_name>
+    <repository>https://github.com/sag1687/GeoCSV-Mapper</repository>
+    <tracker>https://github.com/sag1687/GeoCSV-Mapper/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/csv_importer_plugin.svg</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="STAC Browser" version="1.6.1">
+    <description>Find open Earth-observation data by drawing an area or typing an address. Results are grouped by data type with an adaptive timeline/cards layout, details dialogs, selectable COG band download and opt-in spectral index export. / Trova dati di osservazione della Terra disegnando un'area o digitando un indirizzo. I risultati sono organizzati per tipo dato con timeline/schede adattive, modali dettagli, download selettivo delle bande COG ed export opt-in degli indici spettrali.</description>
+    <about>EN: Find free and open Earth-observation data by drawing a rectangle, point or line on the map, or by typing an address (Nominatim geocoding). Automatic search queries every STAC catalog and shows only datasets that actually exist for that area, grouped by data type (orthophoto, 1/2/3 bands, multispectral, DEM, radar) with timeline, adaptive cards, details dialogs, selectable COG band download (all or only some) and NDVI/NDWI/False Color comparison. Indices are opt-in: they require an explicit flag, are saved as local GeoTIFFs and show download/processing time. Catalogs: Element84 Earth Search, Microsoft Planetary Computer, USGS LandsatLook, NASA EarthData CMR, OpenLandMap, US GeoPlatform, Copernicus Data Space, Digital Earth Australia. --- IT: Trova dati di osservazione della Terra liberi e gratuiti disegnando un rettangolo, un punto o una linea sulla mappa, oppure digitando un indirizzo (geocoding Nominatim). La ricerca automatica interroga tutti i cataloghi STAC e mostra solo i dataset realmente presenti per quell'area, organizzati per tipo dato (ortofoto, 1/2/3 bande, multispettrale, DEM, radar) con timeline, schede adattive, modali dettagli, scelta delle bande COG da scaricare (tutte o solo alcune) e confronto NDVI/NDWI/Falso Colore. Gli indici sono opt-in: richiedono un flag esplicito, vengono salvati come GeoTIFF locale e mostrano il tempo di download/elaborazione.</about>
+    <version>1.6.1</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>SAR.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/SAR.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/stac_browser</repository>
+    <tracker>https://github.com/sag1687/stac_browser/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/SAR.svg</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="SARIAG" version="0.2.0">
+    <description>Download Sentinel-1 SLC time series and compute East-West / Vertical ground displacement maps via SNAP-based InSAR time series processing. / Scarica serie temporali Sentinel-1 SLC e calcola mappe di spostamento Est-Ovest / Verticale tramite elaborazione InSAR multi-temporale basata su SNAP.</description>
+    <about>EN: SARIAG automates a multi-temporal InSAR (SBAS-style) workflow inside QGIS: it searches and downloads Sentinel-1 SLC scenes from the Copernicus Data Space Ecosystem for an area of interest, both ascending and descending orbit passes, drives ESA SNAP's Graph Processing Tool (gpt) to coregister, form interferograms, filter and unwrap phase (via SNAPHU), inverts the small-baseline network into per-date line-of-sight displacement time series, and decomposes the ascending+descending LOS results into East-West and Vertical displacement maps loaded directly into QGIS. Requires a local ESA SNAP installation (with the SNAPHU unwrapping plugin) and a free Copernicus Data Space Ecosystem account; SARIAG orchestrates these proven tools rather than reimplementing phase unwrapping from scratch. --- IT: SARIAG automatizza dentro QGIS un flusso InSAR multi-temporale (tipo SBAS): cerca e scarica scene Sentinel-1 SLC dal Copernicus Data Space Ecosystem per un'area di interesse, sia in orbita ascendente sia discendente, pilota il Graph Processing Tool (gpt) di ESA SNAP per coregistrazione, formazione degli interferogrammi, filtraggio e unwrapping di fase (via SNAPHU), inverte la rete a baseline corta in una serie temporale di spostamento lungo la linea di vista (LOS) per ciascuna data, e scompone i risultati ascendente+discendente in mappe di spostamento Est-Ovest e Verticale caricate direttamente in QGIS. Richiede un'installazione locale di ESA SNAP (con il plugin di unwrapping SNAPHU) e un account gratuito Copernicus Data Space Ecosystem; SARIAG orchestra questi strumenti collaudati invece di reimplementare da zero l'unwrapping di fase.</about>
+    <version>0.2.0</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>SARIAG.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/SARIAG.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/sariag</repository>
+    <tracker>https://github.com/sag1687/sariag/issues</tracker>
+    <experimental>True</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/SARIAG.svg</icon>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="TAF Italia" version="2.6.2">
+    <description>Scarica e converte i Punti Fiduciali (TAF) dall'Agenzia delle Entrate in CSV/WGS84 per QGIS. / Downloads and converts Fiducial Points (TAF) from the Italian Revenue Agency into CSV/WGS84 for QGIS.</description>
+    <about>ITA: TAF Italia automatizza il download dei Punti Fiduciali catastali dall'Agenzia delle Entrate, li converte dal sistema Cassini-Soldner/Gauss-Boaga al WGS84 (EPSG:4326) e li esporta in formato CSV caricabile direttamente in QGIS. ATTENZIONE: i dati potrebbero contenere punti outlier dovuti a errori nella conversione delle coordinate originali. Il plugin determina il sistema di riferimento dal valore della coordinata Est (soglie Gauss-Boaga Ovest/Est, Cassini-Soldner). Le coordinate Cassini-Soldner usano il modello delle 31 Grandi Origini nazionali, non le singole origini comunali, con possibili scostamenti di decine di metri. Include un editor visivo di origini locali (export template CSV, import da file, salvataggio configurazione), generazione automatica link monografie, tematizzazione QGIS (triangolo verde, label PF/FG/COM, azione apertura browser) e mappa interattiva OSM. ENG: TAF Italia automates the download of cadastral Fiducial Points from the Italian Revenue Agency, converts them from Cassini-Soldner/Gauss-Boaga to WGS84 (EPSG:4326) and exports them as CSV files directly loadable in QGIS. WARNING: data may contain outlier points due to errors in the original coordinate conversion. The plugin detects the CRS from the Easting value thresholds. Cassini-Soldner coordinates use the 31 Great National Origins model, not single municipal origins, with possible deviations of tens of meters. Includes a visual local origins editor, automatic monografia link generation, QGIS styling (green triangle, PF/FG/COM labels, browser action) and interactive OSM map.</about>
+    <version>2.6.2</version>
+    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>QGIS_TAF_Plugin.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/QGIS_TAF_Plugin.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/TAF_ITALIA_DOWNLOAD</repository>
+    <tracker>https://github.com/sag1687/TAF_ITALIA_DOWNLOAD/issues</tracker>
+    <experimental>True</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-13</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/QGIS_TAF_Plugin.png</icon>
+  </pyqgis_plugin>
+</plugins>
