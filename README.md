@@ -53,7 +53,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/q_press.svg" width="28"></td>
       <td><a href="#q_press"><b>Q-Press</b></a></td>
-      <td align="center"><code>2.1.1</code></td>
+      <td align="center"><code>2.1.2</code></td>
       <td align="center">3.16+</td>
       <td>Genera PDF cartografici professionali dall'area selezionata sul canvas con Shift+trascina: scala, griglie,…</td>
       <td align="center"><a href="zips/q_press.zip">⬇️</a></td>
@@ -61,7 +61,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/crs.png" width="28"></td>
       <td><a href="#crs"><b>Quick CRS Fixer</b></a></td>
-      <td align="center"><code>2.1.1</code></td>
+      <td align="center"><code>2.1.2</code></td>
       <td align="center">3.16+</td>
       <td>Rileva e corregge automaticamente i problemi di sistema di riferimento (CRS) dei layer, con suggerimento…</td>
       <td align="center"><a href="zips/crs.zip">⬇️</a></td>
@@ -77,7 +77,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/qgis_ledger.jpg" width="28"></td>
       <td><a href="#qgis_ledger"><b>QGIS Ledger</b></a></td>
-      <td align="center"><code>4.2.1</code></td>
+      <td align="center"><code>4.2.2</code></td>
       <td align="center">3.0+</td>
       <td>Controllo di versione stile Git per progetti QGIS: diff geometrici, rollback e sincronizzazione multi-cloud</td>
       <td align="center"><a href="zips/qgis_ledger.zip">⬇️</a></td>
@@ -85,7 +85,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/csv_importer_plugin.svg" width="28"></td>
       <td><a href="#csv_importer_plugin"><b>GeoCSV Mapper</b></a></td>
-      <td align="center"><code>2.3.1</code></td>
+      <td align="center"><code>2.3.2</code></td>
       <td align="center">3.0+</td>
       <td>Importa CSV con coordinate in vari formati (incluso DMS), anteprima mappa e salvataggio in GeoPackage</td>
       <td align="center"><a href="zips/csv_importer_plugin.zip">⬇️</a></td>
@@ -93,7 +93,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/SAR.svg" width="28"></td>
       <td><a href="#sar"><b>STAC Browser</b></a></td>
-      <td align="center"><code>1.7.0</code></td>
+      <td align="center"><code>1.7.1</code></td>
       <td align="center">3.16+</td>
       <td>Cerca e scarica dati di osservazione della Terra dai cataloghi STAC disegnando un'area o cercando un indirizzo</td>
       <td align="center"><a href="zips/SAR.zip">⬇️</a></td>
@@ -101,7 +101,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/SARIAG.svg" width="28"></td>
       <td><a href="#sariag"><b>SARIAG</b></a> ⚠️</td>
-      <td align="center"><code>0.3.1</code></td>
+      <td align="center"><code>0.3.2</code></td>
       <td align="center">3.16+</td>
       <td>Serie temporali InSAR da Sentinel-1 con SNAP: mappe di spostamento Est-Ovest e Verticale</td>
       <td align="center"><a href="zips/SARIAG.zip">⬇️</a></td>
@@ -109,7 +109,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/QGIS_TAF_Plugin.png" width="28"></td>
       <td><a href="#qgis_taf_plugin"><b>TAF Italia</b></a> ⚠️</td>
-      <td align="center"><code>2.7.1</code></td>
+      <td align="center"><code>2.7.2</code></td>
       <td align="center">3.10+</td>
       <td>Scarica e converte i Punti Fiduciali (TAF) dell'Agenzia delle Entrate in CSV/GeoPackage WGS84</td>
       <td align="center"><a href="zips/QGIS_TAF_Plugin.zip">⬇️</a></td>
@@ -123,7 +123,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
 
 ### <a name="q_press"></a><img src="icons/q_press.svg" width="32" align="top"> Q-Press
 
-<img src="https://img.shields.io/badge/versione-2.1.1-1e6fb8?style=flat-square" alt="versione: 2.1.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-2.1.2-1e6fb8?style=flat-square" alt="versione: 2.1.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Genera PDF cartografici professionali dall'area selezionata sul canvas con Shift+trascina: scala, griglie, legenda, tabelle e profilo topografico.
 
@@ -155,7 +155,7 @@ Q-Press allows you to select an area directly from the QGIS canvas using Shift+D
 
 ### <a name="crs"></a><img src="icons/crs.png" width="32" align="top"> Quick CRS Fixer
 
-<img src="https://img.shields.io/badge/versione-2.1.1-1e6fb8?style=flat-square" alt="versione: 2.1.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-2.1.2-1e6fb8?style=flat-square" alt="versione: 2.1.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Rileva e corregge automaticamente i problemi di sistema di riferimento (CRS) dei layer, con suggerimento EPSG intelligente.
 
@@ -221,7 +221,7 @@ IT: GeoBridge e' un client QGIS non ufficiale. Il codice del plugin e' distribui
 
 ### <a name="qgis_ledger"></a><img src="icons/qgis_ledger.jpg" width="32" align="top"> QGIS Ledger
 
-<img src="https://img.shields.io/badge/versione-4.2.1-1e6fb8?style=flat-square" alt="versione: 4.2.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.0-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.0"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-4.2.2-1e6fb8?style=flat-square" alt="versione: 4.2.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.0-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.0"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Controllo di versione stile Git per progetti QGIS: diff geometrici, rollback e sincronizzazione multi-cloud.
 
@@ -268,7 +268,7 @@ CORE FEATURES:
 
 ### <a name="csv_importer_plugin"></a><img src="icons/csv_importer_plugin.svg" width="32" align="top"> GeoCSV Mapper
 
-<img src="https://img.shields.io/badge/versione-2.3.1-1e6fb8?style=flat-square" alt="versione: 2.3.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.0-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.0"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-2.3.2-1e6fb8?style=flat-square" alt="versione: 2.3.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.0-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.0"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Importa CSV con coordinate in vari formati (incluso DMS), anteprima mappa e salvataggio in GeoPackage.
 
@@ -300,7 +300,7 @@ IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti 
 
 ### <a name="sar"></a><img src="icons/SAR.svg" width="32" align="top"> STAC Browser
 
-<img src="https://img.shields.io/badge/versione-1.7.0-1e6fb8?style=flat-square" alt="versione: 1.7.0"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-1.7.1-1e6fb8?style=flat-square" alt="versione: 1.7.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Cerca e scarica dati di osservazione della Terra dai cataloghi STAC disegnando un'area o cercando un indirizzo.
 
@@ -334,7 +334,7 @@ IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti 
 
 ### <a name="sariag"></a><img src="icons/SARIAG.svg" width="32" align="top"> SARIAG
 
-<img src="https://img.shields.io/badge/versione-0.3.1-1e6fb8?style=flat-square" alt="versione: 0.3.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0"> <img src="https://img.shields.io/badge/stato-sperimentale%20·%20experimental-d97706?style=flat-square" alt="stato: sperimentale · experimental">
+<img src="https://img.shields.io/badge/versione-0.3.2-1e6fb8?style=flat-square" alt="versione: 0.3.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0"> <img src="https://img.shields.io/badge/stato-sperimentale%20·%20experimental-d97706?style=flat-square" alt="stato: sperimentale · experimental">
 
 > [!WARNING]
 > **Plugin sperimentale** — in QGIS è visibile solo attivando *"Mostra anche i plugin sperimentali"* nelle impostazioni del Plugin Manager.
@@ -372,7 +372,7 @@ IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti 
 
 ### <a name="qgis_taf_plugin"></a><img src="icons/QGIS_TAF_Plugin.png" width="32" align="top"> TAF Italia
 
-<img src="https://img.shields.io/badge/versione-2.7.1-1e6fb8?style=flat-square" alt="versione: 2.7.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.10-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.10"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0"> <img src="https://img.shields.io/badge/stato-sperimentale%20·%20experimental-d97706?style=flat-square" alt="stato: sperimentale · experimental">
+<img src="https://img.shields.io/badge/versione-2.7.2-1e6fb8?style=flat-square" alt="versione: 2.7.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.10-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.10"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0"> <img src="https://img.shields.io/badge/stato-sperimentale%20·%20experimental-d97706?style=flat-square" alt="stato: sperimentale · experimental">
 
 > [!WARNING]
 > **Plugin sperimentale** — in QGIS è visibile solo attivando *"Mostra anche i plugin sperimentali"* nelle impostazioni del Plugin Manager.
