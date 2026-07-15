@@ -153,4 +153,20 @@ CORE FEATURES:
     <update_date>2026-07-13</update_date>
     <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/QGIS_TAF_Plugin.png</icon>
   </pyqgis_plugin>
+  <pyqgis_plugin name="NoRats" version="1.2.0">
+    <description>IT: Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, esportazione PostgreSQL/PostGIS, dati ISTAT/AdE/OSM. / EN: GIS-based rat-control management in a single window: guided forms, PostgreSQL/PostGIS export, ISTAT/AdE/OSM data.</description>
+    <about>IT: NoRats gestisce campagne di derattizzazione su base GIS in un'unica finestra con tre schede. Campagna: postazioni esca georiferite con semaforo di ispezione, maschere di inserimento guidate (tendine, calendari, slider), registro ispezioni, avvistamenti dei cittadini, aree a rischio, report HTML per l'amministrazione ed esportazione su PostgreSQL/PostGIS. Dati territoriali: limite dell'area di lavoro da ISTAT (comuni italiani, con scelta del CRS), OpenStreetMap/Nominatim (mondiale) o un dataset dell'utente; particelle catastali dell'Agenzia delle Entrate come poligoni muti selezionabili con Shift+Trascina, sempre ritagliate sul limite; strade OpenStreetMap. Compatibile con QGIS 3.x (Qt5) e QGIS 4.x (Qt6): enum Qt e QGIS in forma pienamente scoped nel sorgente. Creato per il piano di derattizzazione del Comune di Mandatoriccio (CS). EN: NoRats manages GIS-based rat-control campaigns in a single three-tab window. Campaign: georeferenced bait stations with inspection traffic-light, guided attribute forms (dropdowns, calendars, sliders), inspection log, citizen sightings, risk areas, HTML reports for the administration and PostgreSQL/PostGIS export. Territorial data: working-area boundary from ISTAT (Italian municipalities, with CRS choice), OpenStreetMap/Nominatim (worldwide) or a user dataset; Italian Revenue Agency cadastral parcels as mute polygons selectable with Shift+Drag, always clipped on the boundary; OpenStreetMap roads. Compatible with QGIS 3.x (Qt5) and QGIS 4.x (Qt6): every Qt and QGIS enum is fully scoped in the source. Created for the rat-control plan of the Municipality of Mandatoriccio (CS).</about>
+    <version>1.2.0</version>
+    <qgis_minimum_version>3.28</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>norats.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/norats.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/norats</repository>
+    <tracker>https://github.com/sag1687/norats/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-07-15</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/norats.svg</icon>
+  </pyqgis_plugin>
 </plugins>
