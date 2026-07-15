@@ -4,7 +4,7 @@
 
 ### Dott. Sarino Alfonso Grande · [SinoCloud](https://sinocloud.it)
 
-<img src="https://img.shields.io/badge/plugin-8-1e6fb8?style=flat-square" alt="plugin: 8"> <img src="https://img.shields.io/badge/QGIS-3.x%20·%204.x-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: 3.x · 4.x"> <img src="https://img.shields.io/badge/licenza%20/%20license-GPL--2.0-bd0000?style=flat-square" alt="licenza / license: GPL-2.0"> <img src="https://img.shields.io/badge/hosting-GitHub%20Pages-24292f?style=flat-square&logo=github&logoColor=white" alt="hosting: GitHub Pages">
+<img src="https://img.shields.io/badge/plugin-9-1e6fb8?style=flat-square" alt="plugin: 9"> <img src="https://img.shields.io/badge/QGIS-3.x%20·%204.x-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: 3.x · 4.x"> <img src="https://img.shields.io/badge/licenza%20/%20license-GPL--2.0-bd0000?style=flat-square" alt="licenza / license: GPL-2.0"> <img src="https://img.shields.io/badge/hosting-GitHub%20Pages-24292f?style=flat-square&logo=github&logoColor=white" alt="hosting: GitHub Pages">
 
 Repository personalizzato per il **Plugin Manager di QGIS**: si aggiunge una
 volta sola, poi installazione e aggiornamenti avvengono direttamente da QGIS.
@@ -113,6 +113,14 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
       <td align="center">3.10+</td>
       <td>Scarica e converte i Punti Fiduciali (TAF) dell'Agenzia delle Entrate in CSV/GeoPackage WGS84</td>
       <td align="center"><a href="zips/QGIS_TAF_Plugin.zip">⬇️</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="icons/norats.svg" width="28"></td>
+      <td><a href="#norats"><b>NoRats</b></a></td>
+      <td align="center"><code>1.2.0</code></td>
+      <td align="center">3.28+</td>
+      <td>Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, PostgreSQL/PostGIS, dati ISTAT/AdE/OSM</td>
+      <td align="center"><a href="zips/norats.zip">⬇️</a></td>
     </tr>
   </tbody>
 </table>
@@ -403,6 +411,40 @@ ITA: TAF Italia automatizza il download dei Punti Fiduciali catastali dall'Agenz
 | 📦 **Download** | [`QGIS_TAF_Plugin.zip`](zips/QGIS_TAF_Plugin.zip) |
 | 💻 **Codice sorgente** | https://github.com/sag1687/TAF_ITALIA_DOWNLOAD |
 | 🐞 **Bug tracker** | https://github.com/sag1687/TAF_ITALIA_DOWNLOAD/issues |
+| 👤 **Autore** | Dott. Sarino Alfonso Grande |
+| 🌐 **Sito** | https://sinocloud.it |
+
+### <a name="norats"></a><img src="icons/norats.svg" width="32" align="top"> NoRats
+
+<img src="https://img.shields.io/badge/versione-1.2.0-1e6fb8?style=flat-square" alt="versione: 1.2.0"> <img src="https://img.shields.io/badge/QGIS-≥%203.28-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.28"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+
+🇮🇹 Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, esportazione PostgreSQL/PostGIS, dati ISTAT/AdE/OSM.
+
+🇬🇧 GIS-based rat-control management in a single window: guided forms, PostgreSQL/PostGIS export, ISTAT/AdE/OSM data.
+
+<details>
+<summary><b>Maggiori informazioni / More info</b></summary>
+
+IT: NoRats gestisce campagne di derattizzazione su base GIS in un'unica finestra con tre schede. Campagna: postazioni esca georiferite con semaforo di ispezione, maschere di inserimento guidate (tendine, calendari, slider), registro ispezioni, avvistamenti dei cittadini, aree a rischio, report HTML per l'amministrazione ed esportazione su PostgreSQL/PostGIS. Dati territoriali: limite dell'area di lavoro da ISTAT (comuni italiani, con scelta del CRS), OpenStreetMap/Nominatim (mondiale) o un dataset dell'utente; particelle catastali dell'Agenzia delle Entrate come poligoni muti selezionabili con Shift+Trascina, sempre ritagliate sul limite; strade OpenStreetMap. Compatibile con QGIS 3.x (Qt5) e QGIS 4.x (Qt6). Creato per il piano di derattizzazione del Comune di Mandatoriccio (CS). EN: NoRats manages GIS-based rat-control campaigns in a single three-tab window. Campaign: georeferenced bait stations with inspection traffic-light, guided attribute forms (dropdowns, calendars, sliders), inspection log, citizen sightings, risk areas, HTML reports for the administration and PostgreSQL/PostGIS export. Territorial data: working-area boundary from ISTAT (Italian municipalities, with CRS choice), OpenStreetMap/Nominatim (worldwide) or a user dataset; Italian Revenue Agency cadastral parcels as mute polygons selectable with Shift+Drag, always clipped on the boundary; OpenStreetMap roads. Compatible with QGIS 3.x (Qt5) and QGIS 4.x (Qt6). Created for the rat-control plan of the Municipality of Mandatoriccio (CS).
+
+</details>
+
+<img src="screenshots/norats/norats_campaign_tab.png" alt="NoRats" width="680">
+
+<details>
+<summary><b>Altri screenshot / More screenshots</b></summary>
+
+<img src="screenshots/norats/norats_territorial_tab.png" alt="NoRats" width="680">
+
+<img src="screenshots/norats/norats_info_tab.png" alt="NoRats" width="680">
+
+</details>
+
+| | |
+|---|---|
+| 📦 **Download** | [`norats.zip`](zips/norats.zip) |
+| 💻 **Codice sorgente** | https://github.com/sag1687/norats |
+| 🐞 **Bug tracker** | https://github.com/sag1687/norats/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
 | 🌐 **Sito** | https://sinocloud.it |
 
