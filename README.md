@@ -52,7 +52,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
   <tbody>
     <tr>
       <td align="center"><img src="icons/q_press.svg" width="28"></td>
-      <td><a href="#q_press"><b>Q-Press</b></a></td>
+      <td><a href="#q_press"><b>Q-Press</b></a> <a href="https://plugins.qgis.org/plugins/q_press/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>2.1.2</code></td>
       <td align="center">3.16+</td>
       <td>Genera PDF cartografici professionali dall'area selezionata sul canvas con Shift+trascina: scala, griglie,…</td>
@@ -60,7 +60,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     </tr>
     <tr>
       <td align="center"><img src="icons/crs.png" width="28"></td>
-      <td><a href="#crs"><b>Quick CRS Fixer</b></a></td>
+      <td><a href="#crs"><b>Quick CRS Fixer</b></a> <a href="https://plugins.qgis.org/plugins/crs/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>2.1.2</code></td>
       <td align="center">3.16+</td>
       <td>Rileva e corregge automaticamente i problemi di sistema di riferimento (CRS) dei layer, con suggerimento…</td>
@@ -68,7 +68,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     </tr>
     <tr>
       <td align="center"><img src="icons/geobridge.svg" width="28"></td>
-      <td><a href="#geobridge"><b>GeoBridge</b></a></td>
+      <td><a href="#geobridge"><b>GeoBridge</b></a> <a href="https://plugins.qgis.org/plugins/geobridge/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>1.3.0</code></td>
       <td align="center">3.22+</td>
       <td>Client non ufficiale per le API IGM: conversione di coordinate e layer vettoriali tra datum italiani</td>
@@ -76,7 +76,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     </tr>
     <tr>
       <td align="center"><img src="icons/qgis_ledger.jpg" width="28"></td>
-      <td><a href="#qgis_ledger"><b>QGIS Ledger</b></a></td>
+      <td><a href="#qgis_ledger"><b>QGIS Ledger</b></a> <a href="https://plugins.qgis.org/plugins/qgis_ledger/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>4.2.2</code></td>
       <td align="center">3.0+</td>
       <td>Controllo di versione stile Git per progetti QGIS: diff geometrici, rollback e sincronizzazione multi-cloud</td>
@@ -84,7 +84,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     </tr>
     <tr>
       <td align="center"><img src="icons/csv_importer_plugin.svg" width="28"></td>
-      <td><a href="#csv_importer_plugin"><b>GeoCSV Mapper</b></a></td>
+      <td><a href="#csv_importer_plugin"><b>GeoCSV Mapper</b></a> <a href="https://plugins.qgis.org/plugins/csv_importer_plugin/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>2.3.2</code></td>
       <td align="center">3.0+</td>
       <td>Importa CSV con coordinate in vari formati (incluso DMS), anteprima mappa e salvataggio in GeoPackage</td>
@@ -92,7 +92,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     </tr>
     <tr>
       <td align="center"><img src="icons/SAR.svg" width="28"></td>
-      <td><a href="#sar"><b>STAC Browser</b></a></td>
+      <td><a href="#sar"><b>STAC Browser</b></a> <a href="https://plugins.qgis.org/plugins/stac_browser/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>1.7.1</code></td>
       <td align="center">3.16+</td>
       <td>Cerca e scarica dati di osservazione della Terra dai cataloghi STAC disegnando un'area o cercando un indirizzo</td>
@@ -108,7 +108,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     </tr>
     <tr>
       <td align="center"><img src="icons/QGIS_TAF_Plugin.png" width="28"></td>
-      <td><a href="#qgis_taf_plugin"><b>TAF Italia</b></a> ⚠️</td>
+      <td><a href="#qgis_taf_plugin"><b>TAF Italia</b></a> ⚠️ <a href="https://plugins.qgis.org/plugins/QGIS_TAF_Plugin/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
       <td align="center"><code>2.7.2</code></td>
       <td align="center">3.10+</td>
       <td>Scarica e converte i Punti Fiduciali (TAF) dell'Agenzia delle Entrate in CSV/GeoPackage WGS84</td>
@@ -125,7 +125,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
   </tbody>
 </table>
 
-⚠️ = sperimentale / *experimental*
+⚠️ = sperimentale / *experimental* · 🏛️ = disponibile anche sul repository ufficiale QGIS / *also on the official QGIS repository*
 
 ## 🔍 Dettagli / Details
 
@@ -156,6 +156,7 @@ Q-Press allows you to select an area directly from the QGIS canvas using Shift+D
 | | |
 |---|---|
 | 📦 **Download** | [`q_press.zip`](zips/q_press.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/q_press/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/q_press |
 | 🐞 **Bug tracker** | https://github.com/sag1687/q_press/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
@@ -190,6 +191,7 @@ Q-Press allows you to select an area directly from the QGIS canvas using Shift+D
 | | |
 |---|---|
 | 📦 **Download** | [`crs.zip`](zips/crs.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/crs/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/CRS_FIXER |
 | 🐞 **Bug tracker** | https://github.com/sag1687/CRS_FIXER/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
@@ -222,6 +224,7 @@ IT: GeoBridge e' un client QGIS non ufficiale. Il codice del plugin e' distribui
 | | |
 |---|---|
 | 📦 **Download** | [`geobridge.zip`](zips/geobridge.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/geobridge/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/geobridge |
 | 🐞 **Bug tracker** | https://github.com/sag1687/geobridge/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
@@ -269,6 +272,7 @@ CORE FEATURES:
 | | |
 |---|---|
 | 📦 **Download** | [`qgis_ledger.zip`](zips/qgis_ledger.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/qgis_ledger/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/qgis_ledger |
 | 🐞 **Bug tracker** | https://github.com/sag1687/qgis_ledger/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
@@ -301,6 +305,7 @@ IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti 
 | | |
 |---|---|
 | 📦 **Download** | [`csv_importer_plugin.zip`](zips/csv_importer_plugin.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/csv_importer_plugin/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/GeoCSV-Mapper |
 | 🐞 **Bug tracker** | https://github.com/sag1687/GeoCSV-Mapper/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande e Geometra Luca Casti |
@@ -335,6 +340,7 @@ IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti 
 | | |
 |---|---|
 | 📦 **Download** | [`SAR.zip`](zips/SAR.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/stac_browser/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/stac_browser |
 | 🐞 **Bug tracker** | https://github.com/sag1687/stac_browser/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
@@ -409,6 +415,7 @@ ITA: TAF Italia automatizza il download dei Punti Fiduciali catastali dall'Agenz
 | | |
 |---|---|
 | 📦 **Download** | [`QGIS_TAF_Plugin.zip`](zips/QGIS_TAF_Plugin.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/QGIS_TAF_Plugin/ |
 | 💻 **Codice sorgente** | https://github.com/sag1687/TAF_ITALIA_DOWNLOAD |
 | 🐞 **Bug tracker** | https://github.com/sag1687/TAF_ITALIA_DOWNLOAD/issues |
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
