@@ -117,7 +117,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/norats.svg" width="28"></td>
       <td><a href="#norats"><b>NoRats</b></a></td>
-      <td align="center"><code>1.2.0</code></td>
+      <td align="center"><code>1.2.1</code></td>
       <td align="center">3.28+</td>
       <td>Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, PostgreSQL/PostGIS, dati ISTAT/AdE/OSM</td>
       <td align="center"><a href="zips/norats.zip">⬇️</a></td>
@@ -416,7 +416,7 @@ ITA: TAF Italia automatizza il download dei Punti Fiduciali catastali dall'Agenz
 
 ### <a name="norats"></a><img src="icons/norats.svg" width="32" align="top"> NoRats
 
-<img src="https://img.shields.io/badge/versione-1.2.0-1e6fb8?style=flat-square" alt="versione: 1.2.0"> <img src="https://img.shields.io/badge/QGIS-≥%203.28-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.28"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-1.2.1-1e6fb8?style=flat-square" alt="versione: 1.2.1"> <img src="https://img.shields.io/badge/QGIS-≥%203.28-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.28"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, esportazione PostgreSQL/PostGIS, dati ISTAT/AdE/OSM.
 
