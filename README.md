@@ -4,7 +4,7 @@
 
 ### Dott. Sarino Alfonso Grande · [SinoCloud](https://sinocloud.it)
 
-<img src="https://img.shields.io/badge/plugin-9-1e6fb8?style=flat-square" alt="plugin: 9"> <img src="https://img.shields.io/badge/QGIS-3.x%20·%204.x-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: 3.x · 4.x"> <img src="https://img.shields.io/badge/licenza%20/%20license-GPL--2.0-bd0000?style=flat-square" alt="licenza / license: GPL-2.0"> <img src="https://img.shields.io/badge/hosting-GitHub%20Pages-24292f?style=flat-square&logo=github&logoColor=white" alt="hosting: GitHub Pages">
+<img src="https://img.shields.io/badge/plugin-10-1e6fb8?style=flat-square" alt="plugin: 10"> <img src="https://img.shields.io/badge/QGIS-3.x%20·%204.x-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: 3.x · 4.x"> <img src="https://img.shields.io/badge/licenza%20/%20license-GPL--2.0-bd0000?style=flat-square" alt="licenza / license: GPL-2.0"> <img src="https://img.shields.io/badge/hosting-GitHub%20Pages-24292f?style=flat-square&logo=github&logoColor=white" alt="hosting: GitHub Pages">
 
 Repository personalizzato per il **Plugin Manager di QGIS**: si aggiunge una
 volta sola, poi installazione e aggiornamenti avvengono direttamente da QGIS.
@@ -121,6 +121,14 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
       <td align="center">3.28+</td>
       <td>Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, PostgreSQL/PostGIS, dati ISTAT/AdE/OSM</td>
       <td align="center"><a href="zips/norats.zip">⬇️</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="icons/profili_sezioni_comuni.svg" width="28"></td>
+      <td><a href="#profili_sezioni_comuni"><b>Profili, Sezioni e Comuni</b></a> <a href="https://plugins.qgis.org/plugins/profili_sezioni_comuni/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
+      <td align="center"><code>1.6.2</code></td>
+      <td align="center">3.16+</td>
+      <td>Profili altimetrici, sezioni con volumi di sterro/riporto, download DTM, ricerca comuni via ISTAT e confronto prima/dopo</td>
+      <td align="center"><a href="zips/profili_sezioni_comuni.zip">⬇️</a></td>
     </tr>
   </tbody>
 </table>
@@ -455,6 +463,39 @@ IT: NoRats gestisce campagne di derattizzazione su base GIS in un'unica finestra
 | 👤 **Autore** | Dott. Sarino Alfonso Grande |
 | 🌐 **Sito** | https://sinocloud.it |
 
+### <a name="profili_sezioni_comuni"></a><img src="icons/profili_sezioni_comuni.svg" width="32" align="top"> Profili, Sezioni e Comuni
+
+<img src="https://img.shields.io/badge/versione-1.6.2-1e6fb8?style=flat-square" alt="versione: 1.6.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+
+🇮🇹 Profili altimetrici (con anteprima live ProfiloExpress), sezioni con volumi di sterro/riporto, download DTM, ricerca comuni via ISTAT e confronto prima/dopo.
+
+🇬🇧 Elevation profiles (with a live ProfiloExpress preview), cross sections with cut/fill volumes, DTM download, ISTAT-based municipality search and before/after comparison.
+
+<details>
+<summary><b>Maggiori informazioni / More info</b></summary>
+
+IT: Strumento avanzato in grafica SPATIQON per profili altimetrici (con anteprima live ProfiloExpress durante il disegno) e con confronto affiancato dello stile "picchettato", sezioni trasversali reali con sterri/riporti/accumuli, disegni tecnici vettoriali, download raster da area SHIFT-draw dagli ZIP ufficiali TINITALY 1.1 e HR-DTM-5m Zenodo con progress/ETA e citazione/licenza, ricerca comuni e confini amministrativi ufficiali direttamente dall'archivio ISTAT (cache locale dopo il primo download, nessuna dipendenza da OpenStreetMap/Nominatim), confronto prima/dopo lavori tra GeoPackage generati dal plugin e tra DTM (raster differenza con volumi di scavo/riporto) con schede risultati separate per Profilo/Sezioni/Confronto, ed esportazioni PNG/PDF/CSV/GPKG/layout QGIS. EN: Advanced SPATIQON-style tool for elevation profiles (with a live "ProfiloExpress" preview while drawing) shown side by side with a classic "picchettata" comparison style, real cross sections with cut/fill/stockpile volumes, vector technical drawings, SHIFT-draw raster download from the official TINITALY 1.1 and HR-DTM-5m Zenodo archives with progress/ETA and citation/licence info, municipality search and official administrative boundaries fetched directly from the ISTAT archive (cached locally after the first download, no OpenStreetMap/Nominatim dependency), before/after works comparison between plugin-generated GeoPackages and between DTMs (difference raster with cut/fill volumes) with separate Profile/Sections/Comparison result tabs, and PNG/PDF/CSV/GPKG/QGIS layout exports.
+
+</details>
+
+<img src="screenshots/profili_sezioni_comuni/panel_overview.png" alt="Profili, Sezioni e Comuni" width="680">
+
+<details>
+<summary><b>Altri screenshot / More screenshots</b></summary>
+
+<img src="screenshots/profili_sezioni_comuni/panel_comuni.png" alt="Profili, Sezioni e Comuni" width="680">
+
+</details>
+
+| | |
+|---|---|
+| 📦 **Download** | [`profili_sezioni_comuni.zip`](zips/profili_sezioni_comuni.zip) |
+| 🏛️ **Repository ufficiale QGIS** | https://plugins.qgis.org/plugins/profili_sezioni_comuni/ |
+| 💻 **Codice sorgente** | https://github.com/sag1687/profili |
+| 🐞 **Bug tracker** | https://github.com/sag1687/profili/issues |
+| 👤 **Autore** | Dott. Sarino Alfonso Grande |
+| 🌐 **Sito** | https://sinocloud.it |
+
 
 ## 🔄 Aggiornamenti / Updates
 
@@ -488,6 +529,6 @@ included in every package.*
 **[sinocloud.it](https://sinocloud.it)** · sino.grande@gmail.com
 
 <sub>README generato automaticamente dai <code>metadata.txt</code> dei plugin —
-ultimo aggiornamento / last update: 13/07/2026</sub>
+ultimo aggiornamento / last update: 01/08/2026</sub>
 
 </div>

@@ -169,4 +169,20 @@ CORE FEATURES:
     <update_date>2026-07-15</update_date>
     <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/norats.svg</icon>
   </pyqgis_plugin>
+  <pyqgis_plugin name="Profili, Sezioni e Comuni" version="1.6.2">
+    <description>IT: Profili altimetrici (con anteprima live ProfiloExpress), sezioni con volumi di sterro/riporto, download DTM, ricerca comuni via ISTAT e confronto prima/dopo. / EN: Elevation profiles (with a live ProfiloExpress preview), cross sections with cut/fill volumes, DTM download, ISTAT-based municipality search and before/after comparison.</description>
+    <about>IT: Strumento avanzato in grafica SPATIQON per profili altimetrici (con anteprima live ProfiloExpress durante il disegno) e con confronto affiancato dello stile "picchettato", sezioni trasversali reali con sterri/riporti/accumuli, disegni tecnici vettoriali, download raster da area SHIFT-draw dagli ZIP ufficiali TINITALY 1.1 e HR-DTM-5m Zenodo con progress/ETA e citazione/licenza, ricerca comuni e confini amministrativi ufficiali direttamente dall'archivio ISTAT (cache locale dopo il primo download, nessuna dipendenza da OpenStreetMap/Nominatim), confronto prima/dopo lavori tra GeoPackage generati dal plugin e tra DTM (raster differenza con volumi di scavo/riporto) con schede risultati separate per Profilo/Sezioni/Confronto, ed esportazioni PNG/PDF/CSV/GPKG/layout QGIS. --- EN: Advanced SPATIQON-style tool for elevation profiles (with a live "ProfiloExpress" preview while drawing) shown side by side with a classic "picchettata" comparison style, real cross sections with cut/fill/stockpile volumes, vector technical drawings, SHIFT-draw raster download from the official TINITALY 1.1 and HR-DTM-5m Zenodo archives with progress/ETA and citation/licence info, municipality search and official administrative boundaries fetched directly from the ISTAT archive (cached locally after the first download, no OpenStreetMap/Nominatim dependency), before/after works comparison between plugin-generated GeoPackages and between DTMs (difference raster with cut/fill volumes) with separate Profile/Sections/Comparison result tabs, and PNG/PDF/CSV/GPKG/QGIS layout exports.</about>
+    <version>1.6.2</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
+    <homepage>https://sinocloud.it</homepage>
+    <file_name>profili_sezioni_comuni.zip</file_name>
+    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/profili_sezioni_comuni.zip</download_url>
+    <author_name>Dott. Sarino Alfonso Grande</author_name>
+    <repository>https://github.com/sag1687/profili</repository>
+    <tracker>https://github.com/sag1687/profili/issues</tracker>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <update_date>2026-08-01</update_date>
+    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/profili_sezioni_comuni.svg</icon>
+  </pyqgis_plugin>
 </plugins>
