@@ -105,10 +105,10 @@ CORE FEATURES:
     <update_date>2026-07-13</update_date>
     <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/csv_importer_plugin.svg</icon>
   </pyqgis_plugin>
-  <pyqgis_plugin name="STAC Browser" version="1.7.1">
+  <pyqgis_plugin name="STAC Browser" version="1.8.0">
     <description>IT: Cerca e scarica dati di osservazione della Terra dai cataloghi STAC disegnando un'area o cercando un indirizzo. / EN: Search and download Earth-observation data from STAC catalogs by drawing an area or searching an address.</description>
-    <about>EN: Find free and open Earth-observation data by drawing a rectangle, point or line on the map, or by typing an address (Nominatim geocoding). Automatic search queries every STAC catalog and shows only datasets that actually exist for that area, grouped by data type (orthophoto, 1/2/3 bands, multispectral, DEM, radar) with timeline, adaptive cards, details dialogs, selectable COG band download (all or only some) and NDVI/NDWI/False Color comparison. Indices are opt-in: they require an explicit flag, are saved as local GeoTIFFs and show download/processing time. Catalogs: Element84 Earth Search, Microsoft Planetary Computer, USGS LandsatLook, NASA EarthData CMR, OpenLandMap, US GeoPlatform, Copernicus Data Space, Digital Earth Australia. --- IT: Trova dati di osservazione della Terra liberi e gratuiti disegnando un rettangolo, un punto o una linea sulla mappa, oppure digitando un indirizzo (geocoding Nominatim). La ricerca automatica interroga tutti i cataloghi STAC e mostra solo i dataset realmente presenti per quell'area, organizzati per tipo dato (ortofoto, 1/2/3 bande, multispettrale, DEM, radar) con timeline, schede adattive, modali dettagli, scelta delle bande COG da scaricare (tutte o solo alcune) e confronto NDVI/NDWI/Falso Colore. Gli indici sono opt-in: richiedono un flag esplicito, vengono salvati come GeoTIFF locale e mostrano il tempo di download/elaborazione.</about>
-    <version>1.7.1</version>
+    <about>EN: Find free and open Earth-observation data by drawing a rectangle, point or line on the map, or by typing an address (Nominatim geocoding). Automatic search queries every STAC catalog concurrently and shows only datasets that actually exist for that area, grouped by data type (orthophoto, 1/2/3 bands, multispectral, DEM, radar) with timeline, adaptive cards, details dialogs, selectable COG band download (all or only some) and NDVI/NDWI/False Color comparison. Indices are opt-in: they require an explicit flag, are saved as local GeoTIFFs and show download/processing time. Catalogs: Element84 Earth Search, Microsoft Planetary Computer, USGS LandsatLook, NASA EarthData CMR (LPCLOUD), Copernicus Data Space, Digital Earth Australia. --- IT: Trova dati di osservazione della Terra liberi e gratuiti disegnando un rettangolo, un punto o una linea sulla mappa, oppure digitando un indirizzo (geocoding Nominatim). La ricerca automatica interroga contemporaneamente tutti i cataloghi STAC e mostra solo i dataset realmente presenti per quell'area, organizzati per tipo dato (ortofoto, 1/2/3 bande, multispettrale, DEM, radar) con timeline, schede adattive, modali dettagli, scelta delle bande COG da scaricare (tutte o solo alcune) e confronto NDVI/NDWI/Falso Colore. Gli indici sono opt-in: richiedono un flag esplicito, vengono salvati come GeoTIFF locale e mostrano il tempo di download/elaborazione.</about>
+    <version>1.8.0</version>
     <qgis_minimum_version>3.16</qgis_minimum_version>
     <homepage>https://sinocloud.it</homepage>
     <file_name>SAR.zip</file_name>
@@ -118,7 +118,7 @@ CORE FEATURES:
     <tracker>https://github.com/sag1687/stac_browser/issues</tracker>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
-    <update_date>2026-07-13</update_date>
+    <update_date>2026-08-01</update_date>
     <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/SAR.svg</icon>
   </pyqgis_plugin>
   <pyqgis_plugin name="SARIAG" version="0.3.2">
@@ -153,26 +153,10 @@ CORE FEATURES:
     <update_date>2026-07-13</update_date>
     <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/QGIS_TAF_Plugin.png</icon>
   </pyqgis_plugin>
-  <pyqgis_plugin name="NoRats" version="1.2.1">
-    <description>IT: Gestione della derattizzazione su base GIS in un'unica finestra: maschere guidate, esportazione PostgreSQL/PostGIS, dati ISTAT/AdE/OSM. Compatibilita' Qt6/QGIS 4 verificata su ambiente reale. / EN: GIS-based rat-control management in a single window: guided forms, PostgreSQL/PostGIS export, ISTAT/AdE/OSM data. Qt6/QGIS 4 compatibility verified on a real environment.</description>
-    <about>IT: NoRats gestisce campagne di derattizzazione su base GIS in un'unica finestra con tre schede. Campagna: postazioni esca georiferite con semaforo di ispezione, maschere di inserimento guidate (tendine, calendari, slider), registro ispezioni, avvistamenti dei cittadini, aree a rischio, report HTML per l'amministrazione ed esportazione su PostgreSQL/PostGIS. Dati territoriali: limite dell'area di lavoro da ISTAT (comuni italiani, con scelta del CRS), OpenStreetMap/Nominatim (mondiale) o un dataset dell'utente; particelle catastali dell'Agenzia delle Entrate come poligoni muti selezionabili con Shift+Trascina, sempre ritagliate sul limite; strade OpenStreetMap. Compatibile con QGIS 3.x (Qt5) e QGIS 4.x (Qt6): enum Qt e QGIS in forma pienamente scoped nel sorgente, verificati sull'ambiente reale QGIS 4.2.0/Qt 6.10.2 con test di caricamento automatico. Creato per il piano di derattizzazione del Comune di Mandatoriccio (CS). EN: NoRats manages GIS-based rat-control campaigns in a single three-tab window. Campaign: georeferenced bait stations with inspection traffic-light, guided attribute forms (dropdowns, calendars, sliders), inspection log, citizen sightings, risk areas, HTML reports for the administration and PostgreSQL/PostGIS export. Territorial data: working-area boundary from ISTAT (Italian municipalities, with CRS choice), OpenStreetMap/Nominatim (worldwide) or a user dataset; Italian Revenue Agency cadastral parcels as mute polygons selectable with Shift+Drag, always clipped on the boundary; OpenStreetMap roads. Compatible with QGIS 3.x (Qt5) and QGIS 4.x (Qt6): every Qt and QGIS enum is fully scoped in the source, verified on a real QGIS 4.2.0/Qt 6.10.2 environment with an automated load test. Created for the rat-control plan of the Municipality of Mandatoriccio (CS).</about>
-    <version>1.2.1</version>
-    <qgis_minimum_version>3.28</qgis_minimum_version>
-    <homepage>https://sinocloud.it</homepage>
-    <file_name>norats.zip</file_name>
-    <download_url>https://sag1687.github.io/sarinoalfonsogrande/zips/norats.zip</download_url>
-    <author_name>Dott. Sarino Alfonso Grande</author_name>
-    <repository>https://github.com/sag1687/norats</repository>
-    <tracker>https://github.com/sag1687/norats/issues</tracker>
-    <experimental>False</experimental>
-    <deprecated>False</deprecated>
-    <update_date>2026-07-15</update_date>
-    <icon>https://sag1687.github.io/sarinoalfonsogrande/icons/norats.svg</icon>
-  </pyqgis_plugin>
-  <pyqgis_plugin name="Profili, Sezioni e Comuni" version="1.6.4">
+  <pyqgis_plugin name="Profili, Sezioni e Comuni" version="1.6.5">
     <description>IT: Profili altimetrici (con anteprima live ProfiloExpress), sezioni con volumi di sterro/riporto, download DTM, ricerca comuni via ISTAT e confronto prima/dopo. / EN: Elevation profiles (with a live ProfiloExpress preview), cross sections with cut/fill volumes, DTM download, ISTAT-based municipality search and before/after comparison.</description>
     <about>IT: Strumento avanzato in grafica SPATIQON per profili altimetrici (con anteprima live ProfiloExpress durante il disegno) e con confronto affiancato dello stile "picchettato", sezioni trasversali reali con sterri/riporti/accumuli, disegni tecnici vettoriali, download raster da area SHIFT-draw dagli ZIP ufficiali TINITALY 1.1 e HR-DTM-5m Zenodo con progress/ETA e citazione/licenza, ricerca comuni e confini amministrativi ufficiali direttamente dall'archivio ISTAT (cache locale dopo il primo download, nessuna dipendenza da OpenStreetMap/Nominatim), confronto prima/dopo lavori tra GeoPackage generati dal plugin e tra DTM (raster differenza con volumi di scavo/riporto) con schede risultati separate per Profilo/Sezioni/Confronto, ed esportazioni PNG/PDF/CSV/GPKG/layout QGIS. --- EN: Advanced SPATIQON-style tool for elevation profiles (with a live "ProfiloExpress" preview while drawing) shown side by side with a classic "picchettata" comparison style, real cross sections with cut/fill/stockpile volumes, vector technical drawings, SHIFT-draw raster download from the official TINITALY 1.1 and HR-DTM-5m Zenodo archives with progress/ETA and citation/licence info, municipality search and official administrative boundaries fetched directly from the ISTAT archive (cached locally after the first download, no OpenStreetMap/Nominatim dependency), before/after works comparison between plugin-generated GeoPackages and between DTMs (difference raster with cut/fill volumes) with separate Profile/Sections/Comparison result tabs, and PNG/PDF/CSV/GPKG/QGIS layout exports.</about>
-    <version>1.6.4</version>
+    <version>1.6.5</version>
     <qgis_minimum_version>3.16</qgis_minimum_version>
     <homepage>https://sinocloud.it</homepage>
     <file_name>profili_sezioni_comuni.zip</file_name>
