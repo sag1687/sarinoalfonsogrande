@@ -109,7 +109,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/QGIS_TAF_Plugin.png" width="28"></td>
       <td><a href="#qgis_taf_plugin"><b>TAF Italia</b></a> ⚠️ <a href="https://plugins.qgis.org/plugins/QGIS_TAF_Plugin/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
-      <td align="center"><code>2.7.2</code></td>
+      <td align="center"><code>2.8.0</code></td>
       <td align="center">3.10+</td>
       <td>Scarica e converte i Punti Fiduciali (TAF) dell'Agenzia delle Entrate in CSV/GeoPackage WGS84</td>
       <td align="center"><a href="zips/QGIS_TAF_Plugin.zip">⬇️</a></td>
@@ -394,7 +394,7 @@ IT: Questo plugin è uno strumento avanzato per l'importazione massiva di punti 
 
 ### <a name="qgis_taf_plugin"></a><img src="icons/QGIS_TAF_Plugin.png" width="32" align="top"> TAF Italia
 
-<img src="https://img.shields.io/badge/versione-2.7.2-1e6fb8?style=flat-square" alt="versione: 2.7.2"> <img src="https://img.shields.io/badge/QGIS-≥%203.10-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.10"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0"> <img src="https://img.shields.io/badge/stato-sperimentale%20·%20experimental-d97706?style=flat-square" alt="stato: sperimentale · experimental">
+<img src="https://img.shields.io/badge/versione-2.8.0-1e6fb8?style=flat-square" alt="versione: 2.8.0"> <img src="https://img.shields.io/badge/QGIS-≥%203.10-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.10"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0"> <img src="https://img.shields.io/badge/stato-sperimentale%20·%20experimental-d97706?style=flat-square" alt="stato: sperimentale · experimental">
 
 > [!WARNING]
 > **Plugin sperimentale** — in QGIS è visibile solo attivando *"Mostra anche i plugin sperimentali"* nelle impostazioni del Plugin Manager.
