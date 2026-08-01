@@ -125,7 +125,7 @@ https://sag1687.github.io/sarinoalfonsogrande/plugins.xml
     <tr>
       <td align="center"><img src="icons/profili_sezioni_comuni.svg" width="28"></td>
       <td><a href="#profili_sezioni_comuni"><b>Profili, Sezioni e Comuni</b></a> <a href="https://plugins.qgis.org/plugins/profili_sezioni_comuni/" title="Disponibile anche sul repository ufficiale QGIS / Also on the official QGIS repository">🏛️</a></td>
-      <td align="center"><code>1.6.3</code></td>
+      <td align="center"><code>1.6.4</code></td>
       <td align="center">3.16+</td>
       <td>Profili altimetrici, sezioni con volumi di sterro/riporto, download DTM, ricerca comuni via ISTAT e confronto prima/dopo</td>
       <td align="center"><a href="zips/profili_sezioni_comuni.zip">⬇️</a></td>
@@ -465,7 +465,7 @@ IT: NoRats gestisce campagne di derattizzazione su base GIS in un'unica finestra
 
 ### <a name="profili_sezioni_comuni"></a><img src="icons/profili_sezioni_comuni.svg" width="32" align="top"> Profili, Sezioni e Comuni
 
-<img src="https://img.shields.io/badge/versione-1.6.3-1e6fb8?style=flat-square" alt="versione: 1.6.3"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
+<img src="https://img.shields.io/badge/versione-1.6.4-1e6fb8?style=flat-square" alt="versione: 1.6.4"> <img src="https://img.shields.io/badge/QGIS-≥%203.16-589632?style=flat-square&logo=qgis&logoColor=white" alt="QGIS: ≥ 3.16"> <img src="https://img.shields.io/badge/licenza-GPL--2.0-bd0000?style=flat-square" alt="licenza: GPL-2.0">
 
 🇮🇹 Profili altimetrici (con anteprima live ProfiloExpress), sezioni con volumi di sterro/riporto, download DTM, ricerca comuni via ISTAT e confronto prima/dopo.
 
